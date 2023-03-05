@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-clipboard",
+  "version": "1.0.0",
+  "description": "Clipboard landing page from Brad Traversy's [Tailwind CSS from Scratch](https://www.udemy.com/course/tailwind-from-scratch/) course and from [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9)",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/style.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
